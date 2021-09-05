@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Form</title>
+        <!--Login css-->
+        <link rel=stylesheet href="assets/css/loginstyle.css">
+    </head>
+    <!--Login Validation-->
+    <script src="assets/js/transaction.js"></script>
+    <body>
+            <!--Login Form-->
+         <div class="login-form">
+          <h1>Login Form</h1>
+          <form name="myform" method="post">
+              <p>Account Number</p>
+              <input type="number"placeholder="Acc Number "name="acno"id="acno"required >
+              <p>Password</p>
+              <input type="password"placeholder="Password"name="password"id="pwd"required >
+              <button type="submit"onclick="Bank.login()">LOGIN</button>
+          </form>
+          <div>
+            <h2> New Here?<a href="signup.html">Sign up</a></h2>
+        </div>
+          </div>
+        
+    </body>
+</html>

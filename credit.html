@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>CREDIT</title>
+    </head>
+    <link rel="stylesheet"href="assets\css\credit.css">
+    <script src="assets/js/transaction.js"></script>
+      <body>
+        <div class="deposit-form">
+            <h1>CREDIT</h1>
+            <form name="myform" method="post">
+                <p>Account Number</p>
+                <input type="number"placeholder="Acc Number "name="acno"id="acno"required >
+                <p>Pin No.</p>
+                <input type="text"placeholder="Pin"name="pin"id="pin"required >
+                <p>Amount</p>
+                <input type="number"placeholder="Amount"name="amount"id="amt"required >
+                <p>Date</p>
+                <input type="date"placeholder="Date"name="date"id="date"required >
+                <button type="submit"onclick="Bank.deposit()">DEPOSIT</button>
+            </form>
+            <div>
+              <h2> Back to Home?<a href="u-dashboard.html">HOME</a></h2>
+          </div>
+            </div>
+          
+
+      </body>
+</html>
