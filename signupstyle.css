@@ -1,0 +1,62 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: url("https://wallpapercave.com/wp/wp2261019.jpg");
+    background-size:cover;
+
+}
+
+.signup-form
+{
+    background-color:white;
+    width: 500px;
+    height: 630px;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     position:absolute;
+     box-sizing: border-box;
+     padding: 10px 35px;
+     border-radius: 10px;
+}
+.signup-form h1{
+    font-size: 40px;
+    margin: 40px;
+    text-align: center;
+
+}
+.signup-form p{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+div>h2{
+    margin: 3px;
+    margin-left: 30px;
+}
+.signup-form input{
+    font-size:16px;
+    width:100%;
+    padding: 10px 10px;
+    border: 1;
+    outline:none;
+    border-radius: 5px;
+    margin-left: -10px;
+   
+}
+
+.signup-form button{
+    font-size: 20px;
+    margin: 20px 0;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-left: 40%;
+    background: url("https://st4.depositphotos.com/16940446/21594/i/450/depositphotos_215946318-stock-photo-red-soft-background-blurred-red.jpg");
+    background-size: cover;
+}

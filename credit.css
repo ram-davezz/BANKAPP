@@ -1,0 +1,66 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    margin:0;
+    padding: 0;
+    background: url("https://www.xmple.com/wallpaper/linear-green-black-gradient-1920x1080-c2-245115-020402-a-315-f-14.svg");
+    background-size: cover;
+    }
+  
+ .deposit-form
+ {
+    background: url("https://c4.wallpaperflare.com/wallpaper/930/277/284/blue-lines-gradient-underwater-wallpaper-preview.jpg");
+    width: 500px;
+    height: 500px;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     position:absolute;
+     color:#fff;
+     box-sizing: border-box;
+     padding: 10px 35px;
+     border-radius: 10px;
+ }
+ .deposit-form h1{
+     font-size: 40px;
+     text-align: center;
+     text-transform: uppercase;
+     margin:40px;
+     margin-top: 10px;
+ }
+ .deposit-form p{
+     font-size: 20px;
+     margin: 15px 0;
+     margin-left: 15px;
+     margin-top: 10px;
+ }
+ .deposit-form input{
+      font-size:16px;
+      width:100%;
+      padding: 10px 10px;
+      border:0;
+      outline:none;
+      border-radius: 5px;
+      margin-left:-9px;
+      margin-top: 0px;
+  }
+  .deposit-form button{
+       font-size: 20px;
+       margin: 20px 0;
+       font-weight: bold;
+       padding: 10px 15px;
+       border-radius: 10px;
+       margin-left: 35%;
+       margin-top: 5px;
+   }
+   h2{
+       margin-top: 20px;
+       margin-left: 100px;
+   }
+   a{
+    text-decoration: none;
+   }
